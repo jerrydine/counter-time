@@ -1,0 +1,27 @@
+/* css grid 
+place-content and place item works in th same way as justify ans align item in flex box */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+ 
+button{
+  padding: 15px 25px;
+  border-radius: 25px;
+  text-align: center;
+  margin-right: 20px ;
+}
+
